@@ -2,6 +2,7 @@ version: "3"
 services:
   node-app:
     container_name: express-node-app-container
+    image: msoliman50/tresmerge-docker
     ports:
       - "4000:4000"
     env_file:
